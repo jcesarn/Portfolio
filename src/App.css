@@ -1,0 +1,34 @@
+* {
+}
+
+/*HOME*/
+.home-text-container {
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+
+.home-text-container .home-hello {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-text-container .home-name {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-text-container .home-description {
+    font-size: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-knowledge-container {
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+    display: inline-block;
+}
+
+/**/
