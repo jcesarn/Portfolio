@@ -8,7 +8,7 @@ export default class HomeDescription extends React.Component {
                     <h1>HELLO, MY NAME IS</h1>
                 </div>
                 <div className='home-name'>
-                    <h1>JULIO CESAR NOMELINI</h1>
+                    <h1>JÚLIO</h1>
                 </div>
                 <div className='home-description'>
                     <h1>Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</h1>

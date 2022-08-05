@@ -1,34 +1,137 @@
 * {
+    max-width:1280px;
+    margin: 0 auto;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    margin-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    scroll-snap-align: start;
+}
+
+/*HEADER*/
+.header-container {
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    scroll-snap-align: end;
+}
+
+.header-container .header-home-page {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-home-page:hover {
+    color: blue;
+}
+
+.header-container .header-about-page {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-about-page:hover {
+    color: blue;    
+}
+
+.header-container .header-home-experience-page {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-home-experience-page:hover {
+    color: blue;    
+}
+
+.header-container .header-home-projects-page {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-home-projects-page:hover {
+    color: blue;    
+}
+
+.header-container .header-contact-page {
+    display: inline-block;
+}
+
+.header-contact-page:hover {
+    color: blue;    
 }
 
 /*HOME*/
-.home-text-container {
+.home-page {
+    color: #4A4A4A;
+    height: 100vh;
+}
+
+.home-page .home-text-container {
     width: 400px;
     height: 300px;
-    background-color: red;
     display: inline-block;
+    vertical-align: middle;
 }
 
-.home-text-container .home-hello {
+.home-page .home-text-container .home-hello {
     font-size: 8px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
 }
 
-.home-text-container .home-name {
+.home-page .home-text-container .home-name {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
 }
 
-.home-text-container .home-description {
+.home-page .home-text-container .home-description {
     font-size: 8px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.home-knowledge-container {
+.home-page .home-knowledge-container {
     width: 600px;
     height: 600px;
-    background-color: blue;
     display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
-/**/
+/*ABOUT*/
+.about-page {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+/*EXPERIENCE*/
+.experience-page {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+/*PROJECT*/
+.projects-page {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+/*CONTACT*/
+.contact-page {
+    width: 100%;
+    height: 80vh;
+}

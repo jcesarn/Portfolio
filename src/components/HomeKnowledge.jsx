@@ -4,6 +4,7 @@ export default class HomeKnowledge extends React.Component {
     render() {
         return (
             <div className='home-knowledge-container'>
+                <p>tecnologias</p>
             </div>
         );
     }
